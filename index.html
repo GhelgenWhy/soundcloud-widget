@@ -1,0 +1,66 @@
+<!-- 🎵 SoundCloud Playlist Widget -->
+<div class="soundcloud-widget">
+  <iframe
+    class="soundcloud-frame"
+    width="100%"
+    height="450"
+    scrolling="no"
+    frameborder="no"
+    allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A53042012&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+  </iframe>
+
+  <div class="soundcloud-footer">
+    <a href="https://soundcloud.com/nightcoreruler"
+       title="Nightcore Master"
+       target="_blank"
+       class="soundcloud-artist">
+       Nightcore Master
+    </a>
+    ·
+    <a href="https://soundcloud.com/nightcoreruler/sets/nightcore"
+       title="Nightcore Playlist"
+       target="_blank"
+       class="soundcloud-title">
+       Nightcore
+    </a>
+  </div>
+</div>
+
+<!-- 🎨 Custom Styles -->
+<style>
+  .soundcloud-widget {
+    background-color: #0d0d0d;   /* 🔲 Фон виджета */
+    color: #ff8800;              /* 🎨 Основной цвет текста */
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;         /* 🟠 Закругление краёв */
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    max-width: 700px;
+    margin: 20px auto;
+  }
+
+  .soundcloud-frame {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .soundcloud-footer {
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .soundcloud-footer a {
+    color: #ff8800;              /* 🔗 Цвет ссылок */
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .soundcloud-footer a:hover {
+    color: #ffffff;              /* ✨ Эффект при наведении */
+    text-decoration: underline;
+  }
+</style>
